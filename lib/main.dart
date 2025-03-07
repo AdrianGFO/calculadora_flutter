@@ -51,7 +51,8 @@ class _CalculatorState extends State<Calculator> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: isDarkMode ? Colors.black : Colors.white,
+      backgroundColor:
+          isDarkMode ? Color.fromRGBO(23, 23, 28, 1) : Colors.white,
       body: SafeArea(
         child: Stack(
           children: [
